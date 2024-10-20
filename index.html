@@ -1,0 +1,9 @@
+<h1>Waiting for results...</h1>
+<div id="result" />
+  <script>
+    const result = document.getElementById("result")
+   fetch("https://myip.wtf")
+  .then((response) => response.json())
+  .then((json) => result.textContent = json);
+    
+  </script>
