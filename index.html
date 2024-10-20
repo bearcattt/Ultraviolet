@@ -1,4 +1,4 @@
-<h1>Waiting for results...</h1>
+<h1>Welcome to this test dummy website!</h1>
 <div id="result"></div>
 <script>
   const result = document.getElementById("result");
@@ -10,7 +10,8 @@
       return response.json(); 
     })
     .then((json) => {
-    result.textContent = `Your IP is: ${json.YourFuckingIPAddress}`;
+    result.textContent = `Your IP is: ${json.YourFuckingIPAddress}
+       Your Location is: ${json.YourFuckingLocation}`;
     })
     .catch((error) => {
       result.textContent = `Error: ${error.message}`;
