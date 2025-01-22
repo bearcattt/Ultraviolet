@@ -26,7 +26,7 @@ jobs:
       - name: Release to GitHub
         uses: ncipollo/release-action@v1
         with:
-          name: Continuous Build
+          name: Latest Version
           tag: latest
           commit: main
           body: "${{ github.event.head_commit.url }} ${{ github.event.head_commit.message }}"
