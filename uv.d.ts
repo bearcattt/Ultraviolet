@@ -110,3 +110,4 @@ export interface UVConfig {
      * This property expects an array of `UVInject`.
      */
     inject?: UVInject[];
+}
