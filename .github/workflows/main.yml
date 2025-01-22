@@ -23,12 +23,6 @@ jobs:
           tag_name: latest
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Get artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: uv
-          path: .
-
       - name: Release to GitHub
         uses: ncipollo/release-action@v1
         with:
