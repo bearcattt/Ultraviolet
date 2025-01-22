@@ -1,12 +1,12 @@
 {
   "name": "uv",
   "version": "3.2.10",
-  "description": "Credits where due",
+  "description": "Credits to https://github.com/titaniumnetwork-dev/Ultraviolet",
   "main": "lib/index.cjs",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bearcattt/ip.git"
+    "url": "git+https://github.com/bearcattt/Ultraviolet-pkg.git"
   },
   "files": [
     "dist",
