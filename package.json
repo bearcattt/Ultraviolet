@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bearcattt/Ultraviolet-pkg.git"
+    "url": "git+https://github.com/bearcattt/npm-pkg.git"
   },
   "files": [
     "dist",
